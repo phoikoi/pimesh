@@ -2,7 +2,7 @@
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [**IoT Starter App**](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [**IoT Starter App**](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 
 In part 3 you will be working on the IBM cloud.  You will send sensor data aver the mesh network into the IBM Cloud.  The IBM IoT Platform will receive the data over a secure connection, then an application deployed on the cloud will receive the data.
@@ -74,6 +74,6 @@ On the overview page you should see:
 ***
 *Quick links :*
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md)  - [**IoT Starter App**](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md)  - [**IoT Starter App**](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)

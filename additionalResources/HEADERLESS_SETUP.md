@@ -2,16 +2,16 @@
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [**Headerless Setup**](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [**Headless Setup**](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 
-# Additional Resources - Headerless setup
+# Additional Resources - Headless setup
 
 When you setup a Raspberry Pi, most documentation requires you to have a USB Keyboard, mouse and an HDMI monitor.  You then have access to the Raspberry Pi, using it like a normal computer.  However, this is not always convenient and it is possible to setup a Raspberry Pi just using your laptop.
 
 # Updating the SD Card image
 
-Once you have flashed the Raspberry Pi image to a micro-SD card you need to reinsert it to your laptop.  You will find a partition on the SD card called boot, which you need to add files to or modify existing files to enable a headerless setup.
+Once you have flashed the Raspberry Pi image to a micro-SD card you need to reinsert it to your laptop.  You will find a partition on the SD card called boot, which you need to add files to or modify existing files to enable a headless setup.
 
 Note: *if you are prompted that a partition is not readable on your laptop - do **not** initialise the partition as this is the main Linux filesystem that your Raspberry Pi uses.  Windows and MacOS systems cannot read this filesystem without getting additional software installed*
 
@@ -62,6 +62,6 @@ One further action needs to be taken during the initial setup.  When you run the
 ***
 *Quick links :*
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [**Headerless Setup**](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [**Headless Setup**](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)

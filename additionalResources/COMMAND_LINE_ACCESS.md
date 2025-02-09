@@ -2,14 +2,14 @@
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [**Command line access**](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [**Command line access**](COMMAND_LINE_ACCESS.md)
 ***
 
 # Additional Resources - Command Line Access to a Raspberry Pi
 
 For the workshop you need to access the command line of all the Raspberry Pi boards you are setting up.  If you are using a keyboard, mouse and monitor, then you will be prompted with a login screen once the Pi has booted.  The default user name is **pi** and the initial password is set to **raspberry**.
 
-If you completed a [headerless setup](HEADERLESS_SETUP.md) then you need to access the Raspberry Pi over the network.  If you are using an Ethernet connection, then you can either connect the Raspberry Pi directly to your laptop with an Ethernet cable or connect both the Raspberry Pi and your laptop to the same Ethernet network.
+If you completed a [headless setup](HEADLESS_SETUP.md) then you need to access the Raspberry Pi over the network.  If you are using an Ethernet connection, then you can either connect the Raspberry Pi directly to your laptop with an Ethernet cable or connect both the Raspberry Pi and your laptop to the same Ethernet network.
 
 If you are going to connect over WiFi then you should have created the wpa_supplicant.conf file on the micro-SD card to configure the WiFi connection for the Raspberry Pi.  Your laptop needs to be connected to the same WiFi network.
 
@@ -110,6 +110,6 @@ Hit **open** to start the connection.  If you get a warning about the identity h
 ***
 *Quick links :*
 ***
-**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [**Command line access**](COMMAND_LINE_ACCESS.md)
+**Resources** - [Setup](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [**Command line access**](COMMAND_LINE_ACCESS.md)
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)

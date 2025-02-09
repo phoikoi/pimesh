@@ -15,9 +15,9 @@ Before you start the workshop you need to have the required hardware and softwar
 
 In part 3 you will send sensor data across the mesh network to the IBM Cloud.  You have to deploy an IoT starter application on the IBM cloud to receive the data.  Full instructions to deploy the application and the IBM IoT platform can be found [here](IOT_STARTER_APP.md)
 
-## Headerless setup
+## Headless setup
 
-When setting up a Raspberry Pi you need to access the Pi to do the initial setup.  This is usually done by connecting a keyboard, mouse and monitor to the Pi.  However, it is possible to setup the pi using a computer without needing to connect the keyboard, mouse and monitor.  This is known as a headerless setup.  Full details can be found on doing a headerless setup on [this page](HEADERLESS_SETUP.md)
+When setting up a Raspberry Pi you need to access the Pi to do the initial setup.  This is usually done by connecting a keyboard, mouse and monitor to the Pi.  However, it is possible to setup the pi using a computer without needing to connect the keyboard, mouse and monitor.  This is known as a headless setup.  Full details can be found on doing a headless setup on [this page](HEADLESS_SETUP.md)
 
 ## Command line access to a Raspberry Pi
 

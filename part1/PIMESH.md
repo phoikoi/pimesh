@@ -13,13 +13,13 @@ In this part of the workshop you will build your own mesh network over WiFi usin
 
 To create the mesh network on the Raspberry Pi we are using [batman-adv](https://www.open-mesh.org/projects/open-mesh/wiki), which is part of the standard linux kernel.  We are going to configure the batman-adv kernel module to take control of the WiFi interface **wlan0** and create a mesh network over WiFi.  Batman-adv will then create a new interface **bat0** to allow the Pi to send network traffic over the mesh network.  This will be explored more in the section on [network access](ROUTE.md)
 
-You need to complete the following steps on all the Raspberry Pis that you want to be part of the mesh network, including the gateway and bridge nodes.  You can choose to use [headerless setup](/additionalResources/HEADERLESS_SETUP.md) or a keyboard, mouse and monitor to access the Pi command line.
+You need to complete the following steps on all the Raspberry Pis that you want to be part of the mesh network, including the gateway and bridge nodes.  You can choose to use [headless setup](/additionalResources/HEADLESS_SETUP.md) or a keyboard, mouse and monitor to access the Pi command line.
 
 ## Create the SD card and perform initial setup
 
 1. Download the latest Raspbian image from [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/).  Choose the Raspbian Buster Lite version.
 2. Flash the image to an SD card suitable for your Raspberry Pi.  Instructions are available [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md) if needed.
-3. If you are doing a [headerless setup](/additionalResources/HEADERLESS_SETUP.md) insert the SD card back into your computer.  Open a command line or terminal on your computer and change to the directory where the SD card boot partition is mounted and create an empty file in the boot partition called ssh:
+3. If you are doing a [headless setup](/additionalResources/HEADLESS_SETUP.md) insert the SD card back into your computer.  Open a command line or terminal on your computer and change to the directory where the SD card boot partition is mounted and create an empty file in the boot partition called ssh:
     - *Linux* : ```touch ssh```
     - *MacOS* : ```touch ssh```
     - *Windows command prompt* : ```type NUL >> ssh```
@@ -29,7 +29,7 @@ You need to complete the following steps on all the Raspberry Pis that you want 
 
     Eject the SD card from your operating system and remove the card from your computer.
 4. Insert the SD card into the Raspberry Pi and then power on the Raspberry Pi.
-5. Login to the pi with user **pi** and password **raspberry**.  If using headerless setup then connect via [ssh](/additionalResources/COMMAND_LINE_ACCESS.md).  The hostname on first boot is **raspberrypi.local**.  
+5. Login to the pi with user **pi** and password **raspberry**.  If using headless setup then connect via [ssh](/additionalResources/COMMAND_LINE_ACCESS.md).  The hostname on first boot is **raspberrypi.local**.  
 6. On the Raspberry Pi command line issue the command
 
     ```sudo raspi-config```

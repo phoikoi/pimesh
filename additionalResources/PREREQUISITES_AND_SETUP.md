@@ -2,7 +2,7 @@
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)
 ***
-**Resources** - [**Setup**](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [**Setup**](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 
 # Additional Resources - Prerequisites and setup
@@ -21,7 +21,7 @@ For each Raspberry Pi you want to use in the mesh you need:
 - Micro USB power cable
 - Power supply
 - microSD card (8MB or larger)
-- Optional USB hub for Pi Zero/Pi 1A+, if setting up with keyboard and mouse (It is possible to setup without keyboard, mouse and monitor using [headerless setup](/additionalResources/HEADERLESS_SETUP.md))
+- Optional USB hub for Pi Zero/Pi 1A+, if setting up with keyboard and mouse (It is possible to setup without keyboard, mouse and monitor using [headless setup](/additionalResources/HEADLESS_SETUP.md))
 - Optional mini-HDMI to HDMI converter for Pi Zero is setting up with Keyboard, mouse and monitor
 - Optional USB WiFi dongle for Pi Zero/Pi 1 Model A+ or the Pi 3 or 4 B(+) Gateway/Bridge nodes if you want to do [part 2](/part2/README.md) to add WiFi connectivity instead of Ethernet.
 
@@ -98,6 +98,6 @@ You also need to deploy an Internet of Things starter application.  Follow [thes
 ***
 *Quick links :*
 ***
-**Resources** - [**Setup**](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headerless Setup](HEADERLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
+**Resources** - [**Setup**](PREREQUISITES_AND_SETUP.md) - [IoT Starter App](IOT_STARTER_APP.md) - [Headless Setup](HEADLESS_SETUP.md) - [Command line access](COMMAND_LINE_ACCESS.md)
 ***
 [Home](/README.md) - [Part 1](/part1/README.md) - [Part 2](/part2/README.md) - [Part 3](/part3/README.md) - [**Resources**](/additionalResources/README.md)
